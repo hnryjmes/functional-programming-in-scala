@@ -45,3 +45,51 @@
 #### 1.4 Summary
 
 ### 2 Getting started with functional programming in Scala
+
+"We'll discuss how to write loops using tail recursive functions, and we'll introduce higher-order functions (HOFs)."
+
+"HOFs are functions that take other functions as arguments and may themselves return functions as their output."
+
+#### 2.1 Introducing Scala the language: an example
+
+"We'll sometimes refer to the part of a declaration that goes before the equals sign as the right-hand side or definition."
+
+"Usually a return type of Unit is a hint that the method has a side effect."
+
+#### 2.2 Running our program
+
+#### 2.3 Modules, objects, and namespaces
+
+#### 2.4 Higher-order functions: passing functions to functions
+
+##### 2.4.1 A short detour: writing loops functionally
+
+"In functional programming, we tend to use very short variable names, even one-letter names."
+
+"This is usually because HOFs are so general that they have no opinion on what the argument should actually do."
+
+#### 2.5 Polymorphic functions: abstracting over types
+
+"So far we've defined only monomorphic functions, or functions that operate on only one type of data."
+
+"Often, and especially when writing HOFs, we want to write code that works for any type it's given."
+
+"We're using the term polymorphism in a slightly different way than you might be used to if you're familiar with object-oriented programming, where that term usually connotes some form of subtyping or inheritance relationship."
+
+"The kind of polymorphism we're using here is sometimes called parametric polymorphism."
+
+##### 2.5.1 An example of a polymorphic function
+
+"This is an example of a polymorphic function, sometimes called a generic function."
+
+"We're abstracting over the type of the array and the function used for searching it."
+
+##### 2.5.2 Calling HOFs with anonymous functions
+
+"When we define a function literal, what is actually being defined in Scala is an object with a method called apply."
+
+#### 2.6 Following types to implementations
+
+#### 2.7 Summary
+
+### 3 Functional data structures
